@@ -1,0 +1,10 @@
+{
+	"name" : "Math", "short_name" : "math", "first_name" : "most basic level", "last_name" : "advanced levels", "components" : 
+	[
+		{"cShort" : "concepts", "cName" : "Conceptual Understanding", "content" : "Comprehension of mathematical concepts, operations, and relations."},
+		{"cShort" : "prodFluency", "cName" : "Procedural Fluency", "content" : "Skill in carrying out procedures flexibly, accurately, efficiently, and appropriately."},
+		{"cShort" : "strategy", "cName" : "Strategic Competence", "content" : "Ability to formulate, represent, and solve mathematical problems."},
+		{"cShort" : "adapt", "cName" : "Adaptive Reasoning", "content" : "Capacity for logical thought, reflection, explanation, and justification."},
+		{"cShort" : "prod", "cName" : "Productive Disposition", "content" : "Habitual inclination to see mathematics as sensible, useful, and worthwhile, coupled with a belief in diligence and one's own efficacy."}
+	]
+}

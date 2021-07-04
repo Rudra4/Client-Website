@@ -1,0 +1,73 @@
+<h2 id="formh2">Fill this form to register with us!</h2>
+<form method="post" id="regForm" action = "php/submit-form.php">
+	<div class="row">
+		<div class="col-lg-12 col-md-12 col-sm-12 com-xs-12">
+			<label for="idType">You are a:&nbsp&nbsp&nbsp&nbsp</label> <select
+				name="idType" id="idType" required>
+				<option value="" id="op0">-- Please Select --</option>
+				<option value="parent" id="op1">Parent</option>
+				<option value="student" id="op2">Student</option>
+				<option value="tutor" id="op3">Tutor</option>
+			</select>
+		</div>
+	</div>
+	<br>
+	<div class="row">
+		<div class="col-lg-6 col-md-6 col-sm-6 com-xs-12">
+			<label for="fName">First Name:&nbsp&nbsp</label> <input type="text"
+				name="fName" id="fName" size="60" placeholder="Your First Name" required/>
+		</div>
+		<div class="col-lg-6 col-md-6 col-sm-6 com-xs-12">
+			<label for="lName">Last Name:&nbsp&nbsp</label> <input type="text"
+				name="lName" id="lName" size="60" placeholder="Your Last Name" required/>
+		</div>
+	</div>
+	<br>
+	<div class="row">
+		<div class="col-lg-6 col-md-6 col-sm-6 com-xs-12">
+			<label for="pName">Parent's Full Name:&nbsp&nbsp</label> <input type="text"
+				name="pName" id="pName" size="60" placeholder="Your Parent's Name" />
+			<p>
+				<em>(in case you are a student)</em>
+			</p>
+		</div>
+		<div class="col-lg-6 col-md-6 col-sm-6 com-xs-12">
+			<label for="doj">Date of Joining Us:&nbsp&nbsp</label>
+			<p>
+				<input type="date" name="doj" id="doj" required/>
+			</p>
+		</div>
+	</div>
+	<br>
+	<div class="row">
+		<div class="col-lg-6 col-md-6 col-sm-6 com-xs-12">
+			<label for="email">Email ID:&nbsp&nbsp</label> <input type="email"
+				name="email" id="email" size="60"
+				pattern="[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*"
+				placeholder="some@example.com" required/>
+		</div>
+		<div class="col-lg-6 col-md-6 col-sm-6 com-xs-12">
+			<label for="pwd">Password:&nbsp&nbsp</label> <input type="password"
+				name="pwd" id="pwd" size="60" placeholder="Enter a secure password" required/>
+		</div>
+	</div>
+	<br> <br>
+	<div class="row">
+		<div class="col-lg-12 col-md-12 col-sm-12 com-xs-12 myCheck">
+			<label for="sub">Subject(s) Interested:&nbsp&nbsp&nbsp&nbsp</label> 
+			<input type="checkbox" class = "acb" name="sub[]" id="sub1" value="reading" onclick="$nameSpace.doRequireCb();" required/>Reading&nbsp&nbsp&nbsp&nbsp
+			<input type="checkbox" class = "acb" name="sub[]" id="sub2" value="writing" onclick="$nameSpace.doRequireCb();" required/>Writing/Grammer&nbsp&nbsp&nbsp&nbsp
+			<input type="checkbox" class = "acb" name="sub[]" id="sub3" value="math" onclick="$nameSpace.doRequireCb();" required/>Math&nbsp&nbsp&nbsp&nbsp
+			<input type="checkbox" class = "acb" name="sub[]" id="sub4" value="problem" onclick="$nameSpace.doRequireCb();" required/>Problem Solving&nbsp&nbsp&nbsp&nbsp 
+			<input type="checkbox" class = "acb" name="sub[]" id="sub5" value="vedic" onclick="$nameSpace.doRequireCb();" required/>Vedic Maths
+		</div>
+	</div>
+	<p id="register">
+		<input type="submit" class="button" name="register" value="Register" />&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		<input type="button" class="button red-button"
+			onclick="$nameSpace.loadForm(); return false;" value="Reset Form">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		<input type="button" class="button white-button"
+			onclick="location.href = 'index.html'" ; return
+			false; value="Back to Home">
+	</p>
+</form>

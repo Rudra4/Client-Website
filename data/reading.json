@@ -1,0 +1,9 @@
+{
+	"name" : "Reading", "short_name" : "reading", "first_name" : "Short Stories", "last_name" : "Shakespeare", "components" : 
+	[
+		{"cShort" : "comprehension", "cName" : "Comprehension", "content" : "Comprehension is the understanding and interpretation of what is read. To be able to accurately understand written material, children need to be able to (1) decode what they read; (2) make connections between what they read and what they already know; and (3) think deeply about what they have read."},
+		{"cShort" : "vocabulary", "cName" : "Vocabulary", "content" : "Vocabulary development is closely connected to comprehension. The larger the reader's vocabulary (either oral or print), the easier it is to make sense of the text. According to the National Reading Panel, vocabulary can be learned incidentally through storybook reading or listening to others, and vocabulary should be taught both directly and indirectly."},
+		{"cShort" : "fluency", "cName" : "Fluency", "content" : "Fluency is the ability to read as well as we speak and to make sense of the text without having to stop and decode each word. Fluent readers are able to read orally with appropriate speed, accuracy, and proper expression. The National Reading Panel's research findings concluded that guided oral reading and repeated oral reading had a significant and positive impact on word recognition, reading fluency, and comprehension in students of all ages."},
+		{"cShort" : "phonics", "cName" : "Phonics", "content" : "Phonics is the relationship between the letters (or letter combinations) in written language and the individual sounds in spoken language. Phonics instruction teaches students how to use these relationships to read and spell words. The National Reading Panel indicated that systematic phonics instruction enhances children's success in learning to read, and it is significantly more effective than instruction that teaches little or no phonics."}
+	]
+}

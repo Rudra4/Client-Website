@@ -1,0 +1,9 @@
+{
+	"name" : "Problem Solving", "short_name" : "problem", "first_name" : "Simple Aptitude Problems", "last_name" : "Real Life Problems", "components" : 
+	[
+		{"cShort" : "creativity", "cName" : "Creativity", "content" : "Problems are usually solved either intuitively or systematically. Intuition is used when no new knowledge is needed - you know enough to be able to make a quick decision and solve the problem, or you use common sense or experience to solve the problem. More complex problems or problems that you have not experienced before will likely require a more systematic and logical approach to solve, and for these you will need to use creative thinking."},
+		{"cShort" : "team", "cName" : "Team Working", "content" : "Many problems are best defined and solved with the input of other people. Team working may sound like a 'work thing' but it is just as important at home and school as well as in the workplace."},
+		{"cShort" : "ei", "cName" : "Emotional Intelligence", "content" : "It is worth considering the impact that a problem and/or its solution has on you and other people. Emotional intelligence, the ability to recognise the emotions of yourself and others, will help guide you to an appropriate solution."},
+		{"cShort" : "decision", "cName" : "Decision Making", "content" : "Problem solving and decision making are closely related skills, and making a decision is an important part of the problem solving process as you will often be faced with various options and alternatives."}
+	]
+}
